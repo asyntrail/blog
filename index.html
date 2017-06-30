@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title> Blog Jetro</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
+
+<!-- begin page -->
 <div class="page">
+<!-- begin header -->
 <div class="header">
 <div class="content clearfix">
     <div class="logo">
@@ -23,40 +30,38 @@
 </nav>
 </div>
 </div>
+<!-- end header -->
 
+<!-- begin title-row-->
 <div class="title-row">
-    <div class="title-col-left"> </div>
+    <div class="title-col-left "> </div>
     <div class="title-col-center">
-        <span>BLOG</span>
+        <span class="span-title" >BLOG</span>
     </div>
     <div class="title-col-right"></div>
 </div>
+<!-- end title-row-->
 
-<div class="post-row first-post">
-    <div class="post-col-left"><img class="icon1" src="img/icon1.jpg" alt="Icon 1"></div>
+<!-- begin post-row  -->
+<div class="post-row ">
+    <div class="post-col-left"><img class="icon" src="img/icon1.jpg" alt="Icon 1"></div>
+    <!-- begin post-col-center -->
     <div class="post-col-center">
-        <div class="p-center-col1">
-            <div class="slider">
-              <div class="content clearfix">
-                <div class="previous">
-                <a href="#" ><img src="img/previous.png" alt="previous"></a>
-                </div>
-                <div class="next">
-                <a href="#" ><img src="img/next.png" alt="next"></a>
-                </div>
-              </div>
-            </div>
+        <!-- begin post-center-left-section -->
+        <div class="post-center-left-section">
+            <div class="post-img" style="background-image:url(img/post1.jpg)"></div>
+            <!-- begin post-description -->
             <div class="post-description">
-                <div class="date-col">
-                    <h5 class="date-margin">DATE</h5>
-                    <p class="date-margin p-color">April 15, 2012</p>
-                    <h5 class="date-margin">TAGS</h5>
-                    <p class="date-margin p-color">Website | Design</p>
-                    <h5 class="date-margin">COMMENTS</h5>
-                    <p class="date-margin p-color">4</p>
+                <div class="post-info">
+                    <strong class="orange-font">DATE</strong>
+                    <p class="p-color">April 15, 2012</p>
+                    <strong class="orange-font">TAGS</strong>
+                    <p class="p-color">Website | Design</p>
+                    <strong class="orange-font">COMMENTS</strong>
+                    <p class="font p-color">4</p>
                 </div>
                 <div class="text-col">
-                    <h3 class="post-title">Top WordPress Themes of 2012</h3>
+                    <h4 class="post-title">Top WordPress Themes of 2012</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     <br>
                     <br>
@@ -64,11 +69,23 @@
                     </p>
                 </div>
             </div>
+            <!-- end post-description -->
+                    <div class="hatching"></div>
         </div>
-        <div class="post-center-col2">
-            <h5 class="about-margin">ABOUT JETRO</h5>
+        <!-- end post-center-left-section -->
+
+        <!-- begin post-center-right-section -->
+        <div class="post-center-right-section">
+            <div class="hatching-right">
+                <h5 class="about-margin">ABOUT JETRO</h5>
+                <div class="hatching-about"></div>
+            </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-            <h5 class="about-margin">CATEGORIES</h5>
+            <div class="hatching-right">
+                <h5 class="about-margin">CATEGORIES</h5>
+                <div class="hatching-about"></div>
+            </div>
+
             <ul class="about-list">
             <li><a href="">Video(3)</a></li>
             <li><a href="">Sports(6)</a></li>
@@ -77,46 +94,56 @@
             <li><a href="">Life(4)</a></li>
             <li><a href="">SuperCoolStuff(8)</a></li>
             </ul>
-            <h5 class="about-margin">PHOTO GALLERY</h5>
+            <!-- begin photo-gallery-->
             <div class="photo-gallery">
-                <div class="row-photo">
-                   <!--  <div class="block-photo"></div> -->
-                    <a class="block-photo" href=""><img src=""> </a>
-                    <a class="block-photo" href=""><img src=""> </a>
-                    <a class="block-photo" href=""><img src=""> </a>
-                    <a class="block-photo" href=""><img src=""> </a>
+                <div class="hatching-right">
+                    <h5 class="about-margin">PHOTO GALLERY</h5>
+                    <div class="hatching-about"></div>
                 </div>
                 <div class="row-photo">
-                    <a class="block-photo" href=""><img src=""> </a>
-                    <a class="block-photo" href=""><img src=""> </a>
-                    <a class="block-photo" href=""><img src=""> </a>
-                    <a class="block-photo" href=""><img src=""> </a>
+                    <a href=""><div class="block-photo" style="background-image:url(img/icon1.jpg)"></div></a>
+                    <a href=""><div class="block-photo" style="background-image:url()"></div></a>
+                    <a href=""><div class="block-photo" style="background-image:url()"></div></a>
+                    <a href=""><div class="block-photo" style="background-image:url()"></div></a>
+                </div>
+                <div class="row-photo">
+                    <a href=""><div class="block-photo" style="background-image:url()"></div></a>
+                    <a href=""><div class="block-photo" style="background-image:url()"></div></a>
+                    <a href=""><div class="block-photo" style="background-image:url()"></div></a>
+                    <a href=""><div class="block-photo" style="background-image:url()"></div></a>
                 </div>
             </div>
-
+            <!-- end photo-gallery -->
         </div>
+        <!-- end post-center-right-section -->
     </div>
+    <!-- end post-col-center -->
+
     <div class="post-col-right"></div>
+
 </div>
+<!-- end post-row  -->
 
-<div class="post-row second-post">
-    <div class="post-col-left"><img class="icon1" src="img/icon2.jpg" alt="Icon 1"></div>
+<!-- begin post-row  -->
+<div class="post-row ">
+    <div class="post-col-left"><img class="icon" src="img/icon2.jpg" alt="Icon 2"></div>
+    <!-- begin post-col-center -->
     <div class="post-col-center">
-        <div class="post-center-col1">
-            <div class="post2-img">
-
-            </div>
+        <!-- begin post-center-left-section -->
+        <div class="post-center-left-section">
+            <div class="post-img" style="background-image:url(img/post2.jpg)"></div>
+            <!-- begin post-description -->
             <div class="post-description">
-                <div class="date-col">
-                    <h5 class="date-margin">DATE</h5>
-                    <p class="date-margin p-color">April 15, 2012</p>
-                    <h5 class="date-margin">TAGS</h5>
-                    <p class="date-margin p-color">Website | Design</p>
-                    <h5 class="date-margin">COMMENTS</h5>
-                    <p class="date-margin p-color">4</p>
+                <div class="post-info">
+                    <strong class="orange-font">DATE</strong>
+                    <p class="p-color">April 15, 2012</p>
+                    <strong class="orange-font">TAGS</strong>
+                    <p class="p-color">Website | Design</p>
+                    <strong class="orange-font">COMMENTS</strong>
+                    <p class="font p-color">4</p>
                 </div>
                 <div class="text-col">
-                    <h3 class="post-title">Top WordPress Themes of 2012</h3>
+                    <h3 class="post-title">Nic Jr Funny piture</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     <br>
                     <br>
@@ -124,35 +151,44 @@
                     </p>
                 </div>
             </div>
+            <!-- end post-description -->
+            <div class="hatching"></div>
         </div>
+        <!-- end post-center-left-section -->
     </div>
-    <div class="post-col-right"></div>
-</div>
+    <!-- end post-col-center -->
 
-<div class="post-row second-post">
+    <div class="post-col-right"></div>
+
+</div>
+<!-- end post-row  -->
+
+<!-- begin post-row  -->
+<div class="post-row ">
 
     <div class="post-col-left">
-        <div class="icons">
-        <div><img class="icon-padding" src="img/icon3.jpg" alt="Icon 1"></div>
-        <div><img class="" src="img/icon4.jpg" alt="Icon 1"></div>
-        </div>
-    </div>
-    <div class="post-col-center">
-        <div class="post-center-col1">
-            <div class="post3-img">
+            <!-- begin icons -->
 
-            </div>
+        <img class="icon" src="img/icon3.jpg" alt="Icon 3">
+
+    </div>
+    <!-- begin post-col-center -->
+    <div class="post-col-center">
+        <!-- begin post-center-left-section -->
+        <div class="post-center-left-section">
+            <iframe class="post-img" src="https://www.youtube.com/embed/BNeWmmxOo1k" frameborder="0" allowfullscreen></iframe>
+            <!-- begin post-description -->
             <div class="post-description">
-                <div class="date-col">
-                    <h5 class="date-margin">DATE</h5>
-                    <p class="date-margin p-color">April 15, 2012</p>
-                    <h5 class="date-margin">TAGS</h5>
-                    <p class="date-margin p-color">Website | Design</p>
-                    <h5 class="date-margin">COMMENTS</h5>
-                    <p class="date-margin p-color">4</p>
+                <div class="post-info">
+                    <strong class="orange-font">DATE</strong>
+                    <p class="p-color">April 15, 2012</p>
+                    <strong class="orange-font">TAGS</strong>
+                    <p class="p-color">Website | Design</p>
+                    <strong class="orange-font">COMMENTS</strong>
+                    <p class="font p-color">4</p>
                 </div>
                 <div class="text-col">
-                    <h3 class="post-title">Top WordPress Themes of 2012</h3>
+                    <h3 class="post-title">Big  Buck  Bunny  Trailer</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     <br>
                     <br>
@@ -160,15 +196,106 @@
                     </p>
                 </div>
             </div>
+            <!-- end post-description -->
+            <div class="hatching"></div>
         </div>
+        <!-- end post-center-left-section -->
+    </div>
+    <!-- end post-col-center -->
+    <div class="post-col-right"></div>
+</div>
+<!-- end post-row  -->
+
+<!-- begin post-row  -->
+<div class="post-row ">
+    <div class="post-col-left">
+        <img class="icon" src="img/icon4.jpg" alt="Icon 4">
+    </div>
+    <!-- begin post-col-center -->
+    <div class="post-col-center">
+        <!-- begin post-center-left-section -->
+        <div class="post-center-left-section">
+            <div class="quote">
+                <div class="quote-symbol"> “</div>
+                <p class="text-quote">Write anything you want here in this quotable area. Something unique you want people to learn about your website or some cool random fact. Its totally up to you.</p>
+            </div>
+            <div class="hatching"></div>
+        </div>
+        <!-- end post-center-left-section -->
+    </div>
+    <!-- end post-col-center -->
+    <div class="post-col-right"></div>
+</div>
+<!-- end post-row  -->
+
+<!-- begin post-row  -->
+<div class="post-row ">
+    <div class="post-col-left">
+        <img class="icon" src="img/icon5.jpg" alt="Icon 5">
+    </div>
+    <!-- begin post-col-center -->
+    <div class="post-col-center">
+        <!-- begin post-center-left-section -->
+        <div class="post-center-left-section">
+            <div class="post-link">
+                <h4 class="post-title">Top WordPress Themes of 2012</h4>
+                <a class="p-link-color" href="www.bestpsdfreebies.com">www.bestpsdfreebies.com</a>
+                <p>Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei.</p>
+            </div>
+            <div class="hatching"></div>
+        </div>
+        <!-- end post-center-left-section -->
+    </div>
+    <!-- end post-col-center -->
+    <div class="post-col-right"></div>
+</div>
+<!-- end post-row  -->
+
+<!-- begin post-row  -->
+<div class="post-row ">
+    <div class="post-col-left"></div>
+    <!-- begin post-col-center -->
+    <div class="post-col-center">
+        <!-- begin post-center-left-section -->
+        <div class="post-center-left-section">
+             <div class="page-switch">
+                <a href="#" class="btn-switch">1</a>
+                <a href="#" class="btn-switch">2</a>
+                <a href="#" class="btn-switch">3</a>
+              </div>
+        <!-- end post-center-left-section -->
+        </div>
+    <!-- end post-col-center -->
     </div>
     <div class="post-col-right"></div>
 </div>
+<!-- end post-row  -->
 
+<!-- begin footer-row-->
+<div class="footer-row">
+    <div class="footer-col-left "> </div>
+    <!-- begin footer-col-center-->
+    <div class="footer-col-center">
+        <div class="footer-col">
+            <span class="span-title">about jetro</span>
+            <p>Lorem ipsum dolor sit amet, malorum recteque reprehendunt ea vel. Urbanitas adolescens vim te, per at tritani aperiri. Adhuc invenire convenire his ea. Id mei vitae denique, in eam commodo veritus disputando.</p>
+        </div>
+        <div class="footer-col">
+            <span class="span-title">twitter widget</span>
+            <p><a class="link-footer" href="">@pixelmater</a> What an awesome design with great functionality :)</p>
+            <p>about 1 hour ago</p>
+            <p> <a class="link-footer" href=""> @designdude</a> What an awesome design with great functionality :)</p>
+            <p> <a class="link-footer" href="">about 2 hour ago</a></p>
+            <p>Follow <a class="link-footer" href="">@bestpsdfreebies</a></p>
+        </div>
+    </div>
+    <!-- end footer-col-center-->
+    <div class="footer-col-right"></div>
+</div>
+<!-- end footer-row-->
 
-
-
-
-</div>    <!-- page -->
+</div>
+<!-- end page -->
 </body>
 </html>
+
